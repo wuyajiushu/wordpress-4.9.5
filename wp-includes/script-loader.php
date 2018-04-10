@@ -130,7 +130,7 @@ function wp_default_scripts( &$scripts ) {
 	$scripts->add( 'wp-ajax-response', "/wp-includes/js/wp-ajax-response$suffix.js", array('jquery'), false, 1 );
 	did_action( 'init' ) && $scripts->localize( 'wp-ajax-response', 'wpAjax', array(
 		'noPerm' => __('Sorry, you are not allowed to do that.'),
-		'broken' => __('Something went wrong.')
+		'broken' => __('An unidentified error has occurred.')
 	) );
 
 	$scripts->add( 'wp-api-request', "/wp-includes/js/api-request$suffix.js", array( 'jquery' ), false, 1 );
@@ -562,8 +562,7 @@ function wp_default_scripts( &$scripts ) {
 		'close'              => __( 'Close' ),
 		'action'             => __( 'Action' ),
 		'discardChanges'     => __( 'Discard changes' ),
-		'cheatin'            => __( 'Something went wrong.' ),
-		'notAllowedHeading'  => __( 'You need a higher level of permission.' ),
+		'cheatin'            => __( 'Cheatin&#8217; uh?' ),
 		'notAllowed'         => __( 'Sorry, you are not allowed to customize this site.' ),
 		'previewIframeTitle' => __( 'Site Preview' ),
 		'loginIframeTitle'   => __( 'Session expired' ),
@@ -642,7 +641,7 @@ function wp_default_scripts( &$scripts ) {
 		$scripts->add( 'admin-tags', "/wp-admin/js/tags$suffix.js", array( 'jquery', 'wp-ajax-response' ), false, 1 );
 		did_action( 'init' ) && $scripts->localize( 'admin-tags', 'tagsl10n', array(
 			'noPerm' => __('Sorry, you are not allowed to do that.'),
-			'broken' => __('Something went wrong.')
+			'broken' => __('An unidentified error has occurred.')
 		));
 
 		$scripts->add( 'admin-comments', "/wp-admin/js/edit-comments$suffix.js", array('wp-lists', 'quicktags', 'jquery-query'), false, 1 );
@@ -836,7 +835,7 @@ function wp_default_scripts( &$scripts ) {
 				'activateImporter'           => __( 'Run Importer' ),
 				/* translators: %s: Importer name */
 				'activateImporterLabel'      => __( 'Run %s' ),
-				'unknownError'               => __( 'Something went wrong.' ),
+				'unknownError'               => __( 'An unidentified error has occurred.' ),
 				'connectionError'            => __( 'Connection lost or the server is busy. Please try again later.' ),
 				'nonceError'                 => __( 'An error has occurred. Please reload the page and try again.' ),
 				'pluginsFound'               => __( 'Number of plugins found: %d' ),
