@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 4.9\n"
 "Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2017-11-13 23:15:44+00:00\n"
-"PO-Revision-Date: 2017-11-15 21:03+0000\n"
+"PO-Revision-Date: 2018-04-14 15:05+0800\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #: wp-admin/about.php:14
 msgid "About"
@@ -2774,16 +2774,16 @@ msgstr "此预览在编辑器中不可用。"
 
 #: wp-admin/includes/ajax-actions.php:3201
 msgid "Could not log out user sessions. Please try again."
-msgstr "未能登出会话，请重试。"
+msgstr "未能退出登录会话，请重试。"
 
 #: wp-admin/includes/ajax-actions.php:3209
 msgid "You are now logged out everywhere else."
-msgstr "您已在所有其他地方登出。"
+msgstr "您已在所有其他地方退出登录。"
 
 #. translators: %s: User's display name.
 #: wp-admin/includes/ajax-actions.php:3213
 msgid "%s has been logged out."
-msgstr "%s已被登出。"
+msgstr "%s已被退出登录。"
 
 #: wp-admin/includes/ajax-actions.php:3237
 msgid "Image could not be processed."
@@ -12378,8 +12378,8 @@ msgid ""
 "You can log out of other devices, such as your phone or a public computer, "
 "by clicking the Log Out Everywhere Else button."
 msgstr ""
-"您可以通过点击“登出其他设备”按钮来在您的其他设备上登出，如您的手机或公共电"
-"脑。"
+"您可以通过点击“退出登录其他设备”按钮来在您的其他设备上退出登录，如您的手机或"
+"公共电脑。"
 
 #: wp-admin/user-edit.php:50
 msgid ""
@@ -12571,7 +12571,7 @@ msgstr "会话"
 
 #: wp-admin/user-edit.php:614 wp-admin/user-edit.php:624
 msgid "Log Out Everywhere Else"
-msgstr "登出其他设备"
+msgstr "退出登录其他设备"
 
 #: wp-admin/user-edit.php:616
 msgid "You are only logged in at this location."
@@ -12582,17 +12582,17 @@ msgid ""
 "Did you lose your phone or leave your account logged in at a public "
 "computer? You can log out everywhere else, and stay logged in here."
 msgstr ""
-"您丢失了您的手机或是在公共电脑上登录着您的账户？您可以在其他设备上登出，只在"
-"此处保留登录状态。"
+"您丢失了您的手机或是在公共电脑上登录着您的账户？您可以在其他设备上退出登录，"
+"只在此处保留登录状态。"
 
 #: wp-admin/user-edit.php:634
 msgid "Log Out Everywhere"
-msgstr "登出所有设备"
+msgstr "退出登录所有设备"
 
 #. translators: 1: User's display name.
 #: wp-admin/user-edit.php:638
 msgid "Log %s out of all locations."
-msgstr "已在所有位置登出%1$s。"
+msgstr "已在所有位置退出登录%1$s。"
 
 #: wp-admin/user-edit.php:687
 msgid "Additional Capabilities"

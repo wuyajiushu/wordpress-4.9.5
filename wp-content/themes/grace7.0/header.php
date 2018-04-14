@@ -118,6 +118,16 @@
 				</div>
 			<?php endif; ?>
 			<button class="js-toggle-search"><i class=" icon-search"></i></button>
+			<a href="https://www.yun100.vip/?page_id=8" class="toggle-tougao  hidden-xs hidden-sm">投稿</a>			
+			<?php if ( is_user_logged_in() ) {?>
+					<a class="toggle-login hidden-xs hidden-sm" href="<?php echo wp_logout_url( get_permalink() );?>">退出</a>
+					<span class="line  hidden-xs hidden-sm"></span>
+					<a class="toggle-login hidden-xs hidden-sm" href="<?php echo admin_url();?>">管理</a>
+				<?php }else{ ?>					
+					<a class="toggle-login hidden-xs hidden-sm" href="https://www.yun100.vip/?page_id=30">登录</a>
+					<span class="line  hidden-xs hidden-sm"></span>
+					<a class="toggle-login hidden-xs hidden-sm" href="https://www.yun100.vip/?page_id=31">注册</a>
+				<?php } ?>
 		</div>
        
 		<?php

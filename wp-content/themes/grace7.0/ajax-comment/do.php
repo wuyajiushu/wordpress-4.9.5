@@ -124,7 +124,7 @@ function scp_comment_post( $incoming_comment ) {
     $pattern = '/[一-龥]/u';
     // 禁止全英文评论
     if(!preg_match($pattern, $incoming_comment['comment_content'])) {
-        ajax_comment_err( "<p>some Chinese word (like \"你好\")，您的评论中必须包含汉字!</p>" );
+        ajax_comment_err( "<p>您的评论中必须包含汉字!</p>" );
     }
     return( $incoming_comment );
 }

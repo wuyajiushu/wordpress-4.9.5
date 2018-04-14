@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: WordPress 4.9\n"
 "Report-Msgid-Bugs-To: https://make.wordpress.org/polyglots/\n"
 "POT-Creation-Date: 2017-11-13 23:14:24+00:00\n"
-"PO-Revision-Date: 2017-11-15 21:16+0000\n"
+"PO-Revision-Date: 2018-04-14 15:01+0800\n"
 "Last-Translator: Jimmy Xu <me@jimmyxu.org>\n"
 "Language-Team: WordPress China\n"
 "Language: zh_CN\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #: wp-activate.php:78
 msgid "Activation Key Required"
@@ -154,7 +154,7 @@ msgstr "编辑我的个人资料"
 
 #: wp-includes/admin-bar.php:286 wp-includes/class-wp-admin-bar.php:423
 msgid "Log Out"
-msgstr "登出"
+msgstr "退出登录"
 
 #. translators: %s: site name
 #: wp-includes/admin-bar.php:316
@@ -1001,7 +1001,7 @@ msgid ""
 "The edit field automatically highlights code syntax. You can disable this in "
 "your <a href=\"%1$s\" %2$s>user profile%3$s</a> to work in plain text mode."
 msgstr ""
-"编辑区将自动高亮代码语法，您可以在您的<a href=\"%1$s\" %2$s>y用户资料%3$s</a>"
+"编辑区将自动高亮代码语法，您可以在您的<a href=\"%1$s\" %2$s>用户资料%3$s</a>"
 "中选择纯文本模式。"
 
 #: wp-includes/class-wp-customize-manager.php:5261
@@ -4117,8 +4117,8 @@ msgid ""
 "<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a href=\"%4$s"
 "\">Log out?</a>"
 msgstr ""
-"<a href=\"%1$s\" aria-label=\"%2$s\">已登入为%3$s</a>。<a href=\"%4$s\">登"
-"出？</a>"
+"<a href=\"%1$s\" aria-label=\"%2$s\">已登入为%3$s</a>。<a href=\"%4$s\">退出"
+"登录？</a>"
 
 #. translators: %s: user name
 #: wp-includes/comment-template.php:2232
@@ -5166,7 +5166,7 @@ msgstr "您正试图注销%s"
 #. translators: %s: logout URL
 #: wp-includes/functions.php:2601
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
-msgstr "您确实要<a href=\"%s\">登出</a>？"
+msgstr "您确实要<a href=\"%s\">退出登录</a>？"
 
 #: wp-includes/functions.php:2610 wp-includes/ms-functions.php:2047
 msgid "Please try again."
@@ -5382,7 +5382,7 @@ msgstr "登录"
 
 #: wp-includes/general-template.php:262
 msgid "Log out"
-msgstr "登出"
+msgstr "退出登录"
 
 #: wp-includes/general-template.php:396 wp-login.php:588 wp-login.php:988
 msgid "Username or Email Address"
@@ -12452,7 +12452,7 @@ msgstr "您的会话已过期，请登入来继续您的工作。"
 
 #: wp-login.php:946
 msgid "You are now logged out."
-msgstr "您已登出。"
+msgstr "您已退出登录。"
 
 #: wp-login.php:948
 msgid "User registration is currently not allowed."
